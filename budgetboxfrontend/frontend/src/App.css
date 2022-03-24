@@ -1,0 +1,25 @@
+@import url('./assets/styles/header.css');
+@import url('./assets/styles/landing-page.css');
+@import url('./assets/styles/sign-in.css');
+@import url('./assets/styles/sidebar.css');
+@import url('./assets/styles/profile.css');
+@import url('./assets/styles/transaction.css');
+@import url('./assets/styles/homepage.css');
+@import url('./assets/styles/tooltip.css');
+@import url('./assets/styles/profile-header.css');
+@import url('./assets/styles/profile.css');
+
+@font-face {
+  font-family: AvenirBook;
+  src: url('./assets/fonts/avenir_ff/AvenirLTStd-Book.otf');
+}
+
+body {
+  margin: 0;
+  font-family: AvenirBook;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
